@@ -3,5 +3,7 @@
 
 ### How to run app
 
-python -m pip install -r requirements.txt
-flask run
+```
+$ python -m pip install -r requirements.txt
+$ flask run
+```
