@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <h1>결과 :
+    {% if prediction == '0' %}
+      안타깝게도 당신은 타이타닉호에서 사망하였습니다..
+    {% else %}
+      당신은 타이타닉호에서 생존하였습니다.
+    {% endif %}
+    <h1>
+    생존률 : {{predict_prob}} %
+    <h2>
+    (1에 가까울수록 생존)
+{% endblock %}

@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block body %}
+  <div class="jumbotron">
+    <div class="container">
+      <h2>내가 타이타닉호에서 살아남을 확률은?</h2>
+      <h2> </h2>
+      <meta charset="utf-8">
+      <title>CSS</title>
+      <style>
+        img { display: block; margin: 0px auto; }
+      </style>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/RMS_Titanic_3.jpg/320px-RMS_Titanic_3.jpg" alt="My Image", WIDTH='600',>
+      <p> </p>
+      <p>타이타닉호는 1912년 4월 10일 영국의 사우샘프턴을 떠나 미국의 뉴욕으로 향하던 첫 항해 중에 4월 15일 빙산과 충돌하여 침몰하여 승선 인원 2,223명 중 1,514명이 사망하였습니다.</p>
+      <p> 만약 내가 타이타닉호에 승선했을 경우 생존했을지 사망했을지 궁금하다면 아래 버튼을 눌러주세요!</p>
+      <p><a class="btn btn-primary btn-lg" href="/predict" role="button">Let's start &raquo;</a></p>
+    </div>
+  </div>
+{% endblock %}
